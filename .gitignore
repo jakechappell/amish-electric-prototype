@@ -32,9 +32,40 @@ bld/
 [Ll]ogs/
 
 # Visual Studio 2015/2017 cache/options directory
+/build/
+*.user
+_ReSharper.*/
+*.sdf
+bin/
+packages/
+obj/
+dotnet/Portal/Portal/obj/Debug/
+Release/
+*.opensdf
+*.tlog
+*.log
+*.VisualState.xml
+Version.cs
+Version.h
+Version.cpp
+*/bin/*
+*/obj/*
 .vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
+
+# Applications
+*.config
+*.user
+*.v2
+*.app
+*.exe
+*.war
+*.dll
+*.pbd
+*.suo
+*.manifest
+*.testlog
 
 # Visual Studio 2017 auto generated files
 Generated\ Files/
